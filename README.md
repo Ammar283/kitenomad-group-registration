@@ -6,7 +6,7 @@ A production-ready WordPress plugin built from scratch for **KiteNomad Experienc
 
 ---
 
-## creenshots
+## Screenshots
 
 | Group Registration Form | Member Invitation Email | Admin Dashboard |
 |------------------------|------------------------|-----------------|
