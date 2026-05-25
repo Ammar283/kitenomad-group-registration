@@ -1331,9 +1331,9 @@ function kn_member_registration_shortcode() {
 // GOOGLE SHEETS INTEGRATION
 // ═══════════════════════════════════════════════════════════════════════════════
 
-define( 'KN_SHEET_ID',       '1l0xE3q-anHz4bTo0gPnyyoqEk3Mt0jU-BiEElXhqSXU' );
-define( 'KN_SERVICE_EMAIL',  'kitenomad-sheets@planar-rarity-497405-f0.iam.gserviceaccount.com' );
-define( 'KN_PRIVATE_KEY',    "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCw0pF7o02dY4MC\n5tiufHzYv4MV6Yax/X8YoXgq3/IP8CR7yleatWy941Rlzhw2RR4OnRxFWmdCDHAc\nW8UmLJLx0+Ef17/mOHLimFn9gu2OGbo3ooYaEfNlTPgzY40rF4yC6wC25nE4IgJ4\ndOIXp46IQX088XJZ1FzSzBovjwf4flNlk938b64gzMoemMTHYaKsTGlQHqdmjZfv\nd0ockb2al+hJPjOV71xWnLoSchWm+PfO3cIQ6512c0/4pyBUX1SI00SyLgf5oxzQ\nfm6QHJIZnkGlRmZOImosBZ6sllW2y7mDzahRd+G3lUC1+ZCQdQox4zljPV/XSr8V\n+0WfhzRDAgMBAAECggEAOh1i0ltoQX+4yeXcNnDUyZob98IyUmKJ+KrtJ05GLQXU\nv9jPdRoGvNwv22vj6tRJniz14zdks5kJ6dAhmjvRKejk10XeHMjVvXKsNP1onSkI\ngouIfp4CvHsRIjaoaY7KUCbzq6lOcc//tt5XhsW7uz2m7zY9ypdY0LFjM9lTGdDD\nLtJm1KxPh/6sfxbWNRBcAjWp4ohrj6hjgsmsB/kvrQmQIeQI1RLnJMqyypxkf7UR\nxoKc3+sDf5nQ1ZXWWJKhoetrV/CYfEU5q9IKhWhJPcyKxgR8ukRNCCY+hGxocPrj\nhbfAW48PpDAg136Iy/yDv4G4kwM8xjN8U8hOCzFh+QKBgQDZOWrDKE4XZWuTzyxz\n1newUZAUXuDbe1dmswwJM11J8kEMGJT4T9lgtqdR4IuM7SIQWweZk6D0Tv6m9xdD\nUcBEooA3aXbY9k25Y+vCeLjsuWrQBntnTfzFwixaCmakSsAio8vExMoT5oym+Rpr\nDcNEWBV2VsvfBJg7XTNknBMsCwKBgQDQYuWGKZbyOeB15IMmYzNZNSceYZsYAzJN\nyz2TPljzBB6U+xY4uR6OMi7yq8TBVWvNJlQ1F98BkoBeKR0Z6SheY3lujDrWE/53\nkyfQl1vdi0BiyXOaC4/4F2XwS2ntCIbtaNNsSlM8n+vF1IfPoNTZXCkM+7kkuEkT\nPls3FfEDqQKBgQCCk2wk4f6HO9T95eRfwYTy/SRxylK6PJteRbSvdyvVvoTxY3lx\nBnayFznfEu5wCT+Xu1CHNeHj2fRjo1Zdhi/gUhpmtMPXSb+Q+IqIvQ7UZeTaJXta\nrtuKeN02RthKXBDBAdsEbhLXAZh86nLB9WTymUxVdXlZlyZ3UOAK03MG3wKBgCJE\ncQv74NeaTt/0IOD6JSKBTBqB4Hg1ZltGlayV7xifT8wd8gyH3I9zjybWujc0rdKB\ngA1vDHv8tGFHj4KIRdwnrXtRUgeMKCdPqpdxnGi1EnRsPjdRuW4Jovi93gBdi5qU\nx1eibUel4KaaiW7KOtY3goShDFQOfe3NLkDDuetpAoGAB6SVL5lvwJGyr811OSxG\n8JfOo41x9Q1Vvdb1FsmTL81dDpxB7NkT380+iCdiCO7uS41B92YTYtHMh7hMxzYt\nSBSl4495HQxg6jmJDLDOeTxJMTQZkHwZ6OnmHuIaNbbypl00op3hxX1FHm3K2rG4\nRLaowvC8DznZwyJhqftodiw=\n-----END PRIVATE KEY-----\n" );
+define( 'KN_SHEET_ID',       '' );
+define( 'KN_SERVICE_EMAIL',  '' );
+define( 'KN_PRIVATE_KEY',    "-----BEGIN PRIVATE KEY-----\n\n-----END PRIVATE KEY-----\n" );
 
 /**
  * Get a fresh Google OAuth access token using Service Account JWT
