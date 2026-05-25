@@ -1,0 +1,200 @@
+/* ── KiteNomad Admin Styles ── */
+
+.kn-admin h1 { margin-bottom: 16px; }
+
+/* Stats bar */
+.kn-stats-row {
+    display: flex;
+    gap: 16px;
+    margin: 0 0 20px;
+    flex-wrap: wrap;
+}
+.kn-stat {
+    background: #fff;
+    border: 1px solid #d0e8f5;
+    border-radius: 10px;
+    padding: 16px 24px;
+    min-width: 140px;
+    text-align: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+.kn-stat-num {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    color: #0077b6;
+    line-height: 1;
+}
+.kn-stat-label {
+    display: block;
+    font-size: 12px;
+    color: #888;
+    margin-top: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Filter form */
+.kn-filter-form {
+    display: flex;
+    gap: 8px;
+    margin: 0 0 16px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.kn-filter-form input[type="search"] {
+    border: 1px solid #c8dff0;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 13px;
+    width: 220px;
+}
+.kn-filter-form select {
+    border: 1px solid #c8dff0;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 13px;
+}
+
+/* Table */
+.kn-table { margin-top: 0 !important; }
+.kn-table th { font-size: 12px; }
+
+/* Expand button */
+.kn-expand-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 11px;
+    color: #0077b6;
+    padding: 0;
+    margin-right: 6px;
+    transition: transform 0.15s;
+}
+
+/* Badge for registration ratio */
+.kn-badge {
+    display: inline-block;
+    background: #ffe9c6;
+    color: #7a4800;
+    border-radius: 20px;
+    padding: 2px 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.kn-badge--full {
+    background: #d2f5e3;
+    color: #0b5e2f;
+}
+
+/* Status select colours */
+.kn-status-select {
+    border-radius: 6px !important;
+    font-size: 12px !important;
+    padding: 3px 6px !important;
+    cursor: pointer;
+}
+.kn-status--pending    { background:#fff8e1 !important; color:#7a5c00 !important; }
+.kn-status--confirmed  { background:#e1f5fe !important; color:#014f7c !important; }
+.kn-status--completed  { background:#e8f5e9 !important; color:#1b5e20 !important; }
+.kn-status--cancelled  { background:#fce4ec !important; color:#880e4f !important; }
+
+/* Delete button */
+.kn-delete-btn {
+    color: #c0392b !important;
+    border-color: #f1aaa0 !important;
+}
+.kn-delete-btn:hover {
+    background: #fff5f5 !important;
+    border-color: #c0392b !important;
+}
+
+/* Members inner panel */
+.kn-members-row > td { padding: 0 !important; }
+.kn-members-inner {
+    background: #f8fbff;
+    border-top: 1px solid #d0e8f5;
+    padding: 20px 24px;
+}
+.kn-members-inner h4 {
+    color: #0077b6;
+    font-size: 14px;
+}
+
+/* Members sub-table */
+.kn-members-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+.kn-members-table th {
+    background: #e8f4fd;
+    color: #014f7c;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 8px 12px;
+    text-align: left;
+    font-weight: 600;
+}
+.kn-members-table td {
+    padding: 9px 12px;
+    border-bottom: 1px solid #e3eff9;
+    vertical-align: middle;
+}
+.kn-members-table tr:last-child td { border-bottom: none; }
+.kn-members-table tr:hover td { background: #f0f8ff; }
+
+/* Member status badge */
+.kn-member-status {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 2px 10px;
+    font-size: 11px;
+    font-weight: 600;
+}
+.kn-member-status--invited    { background:#fff8e1; color:#7a5c00; }
+.kn-member-status--registered { background:#e8f5e9; color:#1b5e20; }
+
+/* Token code */
+.kn-token-code {
+    background: #f0f4f8;
+    border: 1px solid #d0dde8;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-family: monospace;
+    color: #555;
+    margin-right: 6px;
+}
+
+/* Pagination */
+.kn-pagination {
+    margin: 16px 0;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+/* Member row state (from JS) */
+.kn-row-error { border-color: #f5a0a0 !important; }
+.kn-row-ok    { border-color: #7dcea0 !important; }
+
+/* Type badges */
+.kn-type-badge {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 2px 10px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+.kn-type--organiser { background: #dbeafe; color: #1e40af; }
+.kn-type--member    { background: #f3e8ff; color: #6b21a8; }
+
+/* Stat colour variants */
+.kn-stat--green .kn-stat-num  { color: #1a7a47; }
+.kn-stat--green               { border-color: #a7f3d0; background: #f0fdf4; }
+.kn-stat--orange .kn-stat-num { color: #9a4500; }
+.kn-stat--orange              { border-color: #fed7aa; background: #fff7ed; }
